@@ -102,8 +102,8 @@ of fighting local dependencies.
 # 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Add your token to the scripts
-# Replace: HF_TOKEN = "your_token_here"
+# 3. create .env: Add your token
+HF_TOKEN = "your_token_here"
 ```
 
 ### Run Basic RAG
